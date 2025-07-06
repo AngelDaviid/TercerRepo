@@ -21,3 +21,10 @@ def get_superheroes():
 def get_superheroes_marvel():
     rows = ["Spiderman","IronMan","Capitan America","Hulk","Thor","Black Widow","Doctor Strange","Black Panther"]
     return rows
+
+
+@app.get("/valorant")
+def get_characters():
+    rows = ["Jett", "Phoenix", "Sova", "Sage", "Cypher", "Sova", "Omen", "Breach", "Raze", "Killjoy"]
+    return rows
+
